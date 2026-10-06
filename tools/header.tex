@@ -1,0 +1,15 @@
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{xurl}
+
+\newcommand{\nihitopagestyle}{%
+  \fancyhf{}%
+  \fancyhead[R]{\includegraphics[width=2.7cm]{@LOGO@}}%
+  \fancyfoot[C]{\small @FOOTER@ | Seite \thepage\ von \pageref{LastPage}}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+\fancypagestyle{plain}{\nihitopagestyle}
+\pagestyle{fancy}
+\nihitopagestyle
+\setlength{\headheight}{35pt}
