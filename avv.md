@@ -6,7 +6,7 @@ effective: 2026-10-19
 
 ## 1. Gegenstand
 
-Dieser Auftragsverarbeitungsvertrag («AVV») ist Anhang der [Nutzungsbedingungen](https://nihito-io.github.io/legal/latest/terms.html) des nihito planner und wird mit ihnen angenommen. Er gilt, soweit die nihito gmbh, c/o ETH Zürich, D-MAVT ML H42.1, Sonneggstrasse 3, 8092 Zürich, Schweiz («nihito»), als Auftragsverarbeiterin Personendaten für den Kunden als Verantwortlichen bearbeitet. In Fragen des Datenschutzes geht er den Nutzungsbedingungen vor. Massgebend sind das DSG und, soweit anwendbar, Art. 28 DSGVO.
+Dieser Auftragsverarbeitungsvertrag («AVV») ist Anhang der [Nutzungsbedingungen](terms.html) des nihito planner und wird mit ihnen angenommen. Er gilt, soweit die nihito gmbh, c/o ETH Zürich, D-MAVT ML H42.1, Sonneggstrasse 3, 8092 Zürich, Schweiz («nihito»), als Auftragsverarbeiterin Personendaten für den Kunden als Verantwortlichen bearbeitet. In Fragen des Datenschutzes geht er den Nutzungsbedingungen vor. Massgebend sind das DSG und, soweit anwendbar, Art. 28 DSGVO.
 
 ## 2. Bearbeitung und Weisungen
 

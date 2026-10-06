@@ -35,6 +35,8 @@ A release is a git tag `legal-YYYY-MM-DD` (publication date; a second release on
 5. **Check the URLs** above: the new version, `latest/` and `versions.json`.
 6. **Set `TERMS_VERSION`** in planner-platform to the new tag and deploy it. From then on, users must accept the new version before they can keep using the planner.
 
+Links between the documents are relative (`[AVV](dpa.html)`), so they always point to the same version: in HTML to the sibling file, in the PDF to `https://nihito-io.github.io/legal/<version>/<id>.html`.
+
 Never move or delete a `legal-*` tag once a user may have accepted it, and don't rename the documents: each release rebuilds all tags, and the file-to-id mapping lives in `LEGAL_DOCUMENTS` in [.github/workflows/publish.yml](./.github/workflows/publish.yml). To redeploy without a new tag, run the workflow manually.
 
 GitHub settings this relies on: Settings → Pages → Source "GitHub Actions"; Settings → Environments → `github-pages` allows tags `legal-*`.

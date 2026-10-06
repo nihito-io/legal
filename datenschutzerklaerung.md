@@ -11,7 +11,7 @@ E-Mail: info@nihito.io
 
 Diese Datenschutzerklärung gilt für den nihito planner («planner»). Für unsere Website www.nihito.io gilt eine eigene. Wir richten uns nach dem Schweizer Datenschutzgesetz (DSG) und, soweit anwendbar, nach der EU-Datenschutz-Grundverordnung (DSGVO).
 
-Für Ihr Konto, den Betrieb, den Support und die Nutzungsanalyse sind wir verantwortlich. Für die Inhalte Ihrer planner-Instanz handeln wir in Ihrem Auftrag nach dem [Auftragsverarbeitungsvertrag (AVV)](https://nihito-io.github.io/legal/latest/dpa.html).
+Für Ihr Konto, den Betrieb, den Support und die Nutzungsanalyse sind wir verantwortlich. Für die Inhalte Ihrer planner-Instanz handeln wir in Ihrem Auftrag nach dem [Auftragsverarbeitungsvertrag (AVV)](dpa.html).
 
 ## 2. Welche Daten wir wofür bearbeiten
 
@@ -43,7 +43,7 @@ Für die USA stützen wir uns auf das EU-U.S. und das Swiss-U.S. Data Privacy Fr
 ## 4. Aufbewahrung
 
 - **Konto und angenommene Versionen:** solange Ihr Konto besteht; danach nur, soweit wir sie als Nachweis brauchen.
-- **Inhalte Ihrer planner-Instanz:** bis 30 Tage nach Ende des Vertrags oder Ihres Zugangs (Ziffer 10 der [Nutzungsbedingungen](https://nihito-io.github.io/legal/latest/terms.html)); Backups 7 Tage.
+- **Inhalte Ihrer planner-Instanz:** bis 30 Tage nach Ende des Vertrags oder Ihres Zugangs (Ziffer 10 der [Nutzungsbedingungen](terms.html)); Backups 7 Tage.
 - **Protokolle von Hintergrundaufgaben:** 30 Tage.
 - **Server-Protokolle:** 90 Tage.
 - **Support-Anfragen:** bis die Anfrage erledigt ist.
@@ -57,7 +57,7 @@ Verbindungen sind mit TLS verschlüsselt. Jeder Kunde hat eine eigene planner-In
 
 **Notwendig:** Sitzungs-Cookies für die Anmeldung und den Zugang zu Ihrer planner-Instanz, ein Cookie für die Sprache und ein Eintrag im lokalen Speicher Ihres Browsers für Ihre Cookie-Auswahl. Ohne sie funktioniert der planner nicht.
 
-**Optional:** Wenn Sie im Cookie-Banner zustimmen, verwenden wir Microsoft Clarity. Clarity setzt eigene Cookies und erfasst, wie Sie den planner bedienen (zum Beispiel Klicks, Scrollen, aufgezeichnete Sitzungen), sowie technische Angaben zu Ihrem Gerät. Ohne Ihre Zustimmung wird Clarity nicht aktiviert. Ihre Wahl ändern Sie jederzeit über «Cookie-Einstellungen» in der Fusszeile. Mehr dazu in der [Datenschutzerklärung von Microsoft](https://www.microsoft.com/privacy/privacystatement).
+**Optional:** Wenn Sie im Cookie-Banner zustimmen, verwenden wir Microsoft Clarity. Clarity setzt eigene Cookies und erfasst, wie Sie den planner bedienen (zum Beispiel Klicks, Scrollen, aufgezeichnete Sitzungen), sowie technische Angaben zu Ihrem Gerät. Ohne Ihre Zustimmung wird Clarity nicht aktiviert. Ihre Wahl ändern Sie jederzeit über «Cookie-Einstellungen» in der Fusszeile. Mehr dazu in der [Datenschutzerklärung von Microsoft](https://www.microsoft.com/de-de/privacy/privacystatement).
 
 ## 7. Ihre Rechte
 

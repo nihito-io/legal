@@ -54,8 +54,11 @@ def documents() -> dict[str, str]:
     return docs
 
 
-def run(*args: str, cwd: Path | None = None) -> str:
-    result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, encoding="utf-8")
+def run(*args: str, cwd: Path | None = None, env: dict[str, str] | None = None) -> str:
+    result = subprocess.run(
+        args, cwd=cwd, capture_output=True, text=True, encoding="utf-8",
+        env={**os.environ, **env} if env else None,
+    )
     if result.returncode != 0:
         fail(f"{' '.join(args)} failed:\n{result.stderr}")
     return result.stdout
@@ -120,8 +123,10 @@ def build_document(source: Path, out_dir: Path, doc_id: str, meta: dict, footer:
         "--variable", "mainfont=Teachers",
         "--variable", "colorlinks=true",
         "--include-in-header", str(header),
+        "--lua-filter", str(ASSETS / "pdf-links.lua"),
         "--output", str(out_dir / f"{doc_id}.pdf"),
         cwd=tmp,
+        env={"LEGAL_LINK_BASE": f"{BASE_URL}{meta['version']}/"},
     )
 
 

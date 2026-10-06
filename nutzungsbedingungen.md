@@ -11,7 +11,7 @@ Diese Nutzungsbedingungen regeln die Nutzung des nihito planner («planner») du
 nihito gmbh, c/o ETH Zürich, D-MAVT ML H42.1, Sonneggstrasse 3, 8092 Zürich, Schweiz,\
 E-Mail: info@nihito.io («nihito», «wir»).
 
-Der [Auftragsverarbeitungsvertrag (AVV)](https://nihito-io.github.io/legal/latest/dpa.html) ist Anhang dieser Nutzungsbedingungen und gilt, soweit wir in Ihrem Auftrag Personendaten bearbeiten. Wie wir selbst Personendaten bearbeiten, beschreibt die [Datenschutzerklärung](https://nihito-io.github.io/legal/latest/privacy.html).
+Der [Auftragsverarbeitungsvertrag (AVV)](dpa.html) ist Anhang dieser Nutzungsbedingungen und gilt, soweit wir in Ihrem Auftrag Personendaten bearbeiten. Wie wir selbst Personendaten bearbeiten, beschreibt die [Datenschutzerklärung](privacy.html).
 
 Der Vertrag kommt zustande, wenn Sie diese Nutzungsbedingungen im planner annehmen. Allgemeine Geschäftsbedingungen des Kunden gelten nicht.
 
