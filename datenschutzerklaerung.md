@@ -29,11 +29,12 @@ Die Inhalte Ihrer planner-Instanz werten wir nicht für eigene Zwecke aus. Wenig
 
 ## 3. Empfänger und Speicherort
 
-Der planner läuft vollständig bei Amazon Web Services (AWS) in der Region us-east-1 (USA).
+Frontend und Backend des planner, darunter Ihr Konto, laufen bei Contabo in Deutschland. Die planner-Instanzen, die Backups und der Dateispeicher liegen bei Amazon Web Services (AWS) in der Region eu-central-1 (Frankfurt, Deutschland).
 
 | Empfänger | Zweck | Ort |
 |---|---|---|
-| Amazon Web Services, Inc. | Hosting des gesamten planner | USA |
+| Contabo GmbH | Hosting von Frontend und Backend des planner | Deutschland |
+| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups, Dateispeicher, Anmeldedienst | Deutschland |
 | Twilio Inc. (SendGrid) | E-Mail-Versand von Support-Nachrichten und Systemmeldungen | USA |
 | Microsoft Corporation (Clarity) | Nutzungsanalyse, nur mit Einwilligung | USA |
 | Stripe Payments Europe, Ltd. | Zahlungen, nur bei kostenpflichtigen Angeboten | Irland, USA |

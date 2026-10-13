@@ -20,11 +20,11 @@ Nur die Administratorinnen und Administratoren von nihito haben Zugriff auf die 
 
 nihito trifft die Massnahmen nach Anhang 2 und passt sie dem Stand der Technik an, ohne das Schutzniveau zu senken.
 
-## 5. Unterauftragsverarbeiter und Bearbeitung in den USA
+## 5. Unterauftragsverarbeiter und Speicherort
 
 Der Kunde genehmigt die Unterauftragsverarbeiter in Anhang 3. nihito verpflichtet sie zu einem gleichwertigen Datenschutz. Neue Unterauftragsverarbeiter führt nihito mit einer neuen Fassung dieses AVV ein, die der Kunde nach Ziffer 12 der Nutzungsbedingungen annimmt oder ablehnt.
 
-Die Daten liegen bei AWS in der Region us-east-1 (USA). Mit der Nutzung des planner weist der Kunde nihito an, sie dort zu bearbeiten. Die Übermittlung stützt sich auf das EU-U.S. und das Swiss-U.S. Data Privacy Framework und ergänzend auf die Standardvertragsklauseln der EU-Kommission mit den Anpassungen für die Schweiz, die nihito mit den Unterauftragsverarbeitern vereinbart hat.
+Die planner-Instanzen und ihre Backups liegen bei AWS in der Region eu-central-1 (Frankfurt, Deutschland), Frontend und Backend des planner bei Contabo in Deutschland. Mit der Nutzung des planner weist der Kunde nihito an, die Daten dort zu bearbeiten. Soweit Daten in die USA übermittelt werden, stützt sich die Übermittlung auf das EU-U.S. und das Swiss-U.S. Data Privacy Framework und ergänzend auf die Standardvertragsklauseln der EU-Kommission mit den Anpassungen für die Schweiz, die nihito mit den Unterauftragsverarbeitern vereinbart hat.
 
 ## 6. Unterstützung und Verletzungen der Datensicherheit
 
@@ -51,15 +51,16 @@ nihito gibt dem Kunden auf Anfrage die Informationen, die er zur Prüfung dieses
 ## Anhang 2: Technische und organisatorische Massnahmen
 
 - Eigene planner-Instanz mit eigenen Datenträgern für jeden Kunden.
-- TLS-Verschlüsselung aller Verbindungen; verschlüsselte Datenträger, Backups und Dateispeicher (Amazon S3).
+- TLS-Verschlüsselung aller Verbindungen; verschlüsselte Datenträger, Backups (EBS-Snapshots der planner-Instanzen, Backups der Backend-Datenbanken in Amazon S3) und Dateispeicher (Amazon S3).
 - Anmeldung für planner und planner-Instanz; Zugriff von nihito nur durch die Administratorengruppe (Ziffer 3).
 - Dateispeicher ohne öffentlichen Zugriff; Download-Links gelten höchstens 45 Minuten.
-- Backups täglich um 03:00 UTC sowie vor jeder Pause und jedem Update; Löschung nach 7 Tagen.
+- Backups der planner-Instanzen täglich um 03:00 UTC sowie vor jeder Pause und jedem Update; Löschung nach 7 Tagen.
 - Härtung der planner-Instanzen bei der Einrichtung, unter anderem mit einer Firewall.
 
 ## Anhang 3: Unterauftragsverarbeiter
 
 | Unterauftragsverarbeiter | Zweck | Ort |
 |---|---|---|
-| Amazon Web Services, Inc. | Hosting von planner-Instanzen, Backups, Dateispeicher, Anmeldedienst und Backend | USA (us-east-1) |
+| Contabo GmbH | Hosting von Frontend und Backend des planner | Deutschland |
+| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups (EBS-Snapshots der Instanzen, Backups der Backend-Datenbanken in Amazon S3), Dateispeicher, Anmeldedienst | Deutschland (eu-central-1, Frankfurt) |
 | Twilio Inc. (SendGrid) | E-Mail-Versand von Support-Nachrichten, soweit sie Daten des Kunden enthalten | USA |
