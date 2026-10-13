@@ -14,7 +14,7 @@ nihito bearbeitet die Daten nur, um den planner bereitzustellen (Anhang 1), und 
 
 ## 3. Zugriff durch nihito
 
-Nur die Administratorinnen und Administratoren von nihito haben Zugriff auf die planner-Instanz des Kunden. Sie können sie öffnen, ihre Protokolle lesen, Backups anlegen, wiederherstellen und löschen, den Zugang freigeben oder entziehen und Updates auslösen, und zwar nur, soweit es für Betrieb, Support oder Fehlersuche nötig ist. Eine Anmeldung unter dem Konto des Kunden ist nicht möglich.
+Nur die Administratorinnen und Administratoren von nihito haben Zugriff auf die planner-Instanz des Kunden. Sie können sie öffnen, ihre Protokolle lesen, Backups anlegen, wiederherstellen und löschen, den Zugang freigeben oder entziehen und Updates auslösen, und zwar nur, soweit es für Betrieb, Support oder Fehlersuche nötig ist. nihito meldet sich nicht unter dem Konto des Kunden an.
 
 ## 4. Sicherheit
 
@@ -26,13 +26,15 @@ Der Kunde genehmigt die Unterauftragsverarbeiter in Anhang 3. nihito verpflichte
 
 Die planner-Instanzen und ihre Backups liegen bei AWS in der Region eu-central-1 (Frankfurt, Deutschland), Frontend und Backend des planner bei Contabo in Deutschland. Mit der Nutzung des planner weist der Kunde nihito an, die Daten dort zu bearbeiten. Soweit Daten in die USA übermittelt werden, stützt sich die Übermittlung auf das EU-U.S. und das Swiss-U.S. Data Privacy Framework und ergänzend auf die Standardvertragsklauseln der EU-Kommission mit den Anpassungen für die Schweiz, die nihito mit den Unterauftragsverarbeitern vereinbart hat.
 
+Zwei Funktionen des planner nutzen öffentliche Dienste, mit denen nihito keinen Vertrag hat: Die Adresssuche sendet den eingegebenen Suchtext an Photon der komoot GmbH (Deutschland), die PV-Schätzung die Koordinaten des Depots an PVGIS der Gemeinsamen Forschungsstelle der EU-Kommission (Italien). Nutzt der Kunde diese Funktionen, weist er nihito an, diese Angaben dorthin zu senden. Depotadressen und -koordinaten sind in der Regel keine Personendaten.
+
 ## 6. Unterstützung und Verletzungen der Datensicherheit
 
 nihito unterstützt den Kunden angemessen bei Anfragen betroffener Personen, bei Datenschutz-Folgenabschätzungen und gegenüber Behörden. Von einer Verletzung der Datensicherheit, die Daten des Kunden betrifft, informiert nihito den Kunden unverzüglich, mit den Angaben, die er für seine eigenen Meldepflichten braucht.
 
 ## 7. Rückgabe und Löschung
 
-Der Kunde kann seine Daten jederzeit im planner herunterladen. Nach Ende des Vertrags oder des Zugangs löscht nihito die Daten nach Ziffer 10 der Nutzungsbedingungen: die planner-Instanz nach 30 Tagen, Backups spätestens 7 Tage später.
+Der Kunde kann seine Daten jederzeit im planner herunterladen. Nach Ende des Vertrags oder des Zugangs löscht nihito die Daten nach Ziffer 10 der Nutzungsbedingungen: die planner-Instanz nach 30 Tagen, ihre Backups spätestens 7 Tage später. Protokolle fehlgeschlagener Starts der planner-Instanz bleiben in der Datenbank des Backends, bis das Konto gelöscht wird, und danach höchstens 30 Tage in deren Backups.
 
 ## 8. Nachweise
 
@@ -55,12 +57,13 @@ nihito gibt dem Kunden auf Anfrage die Informationen, die er zur Prüfung dieses
 - Anmeldung für planner und planner-Instanz; Zugriff von nihito nur durch die Administratorengruppe (Ziffer 3).
 - Dateispeicher ohne öffentlichen Zugriff; Download-Links gelten höchstens 45 Minuten.
 - Backups der planner-Instanzen täglich um 03:00 UTC sowie vor jeder Pause und jedem Update; Löschung nach 7 Tagen.
+- Backups der Backend-Datenbanken alle 6 Stunden; Löschung nach 30 Tagen.
 - Härtung der planner-Instanzen bei der Einrichtung, unter anderem mit einer Firewall.
 
 ## Anhang 3: Unterauftragsverarbeiter
 
 | Unterauftragsverarbeiter | Zweck | Ort |
 |---|---|---|
-| Contabo GmbH | Hosting von Frontend und Backend des planner | Deutschland |
-| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups (EBS-Snapshots der Instanzen, Backups der Backend-Datenbanken in Amazon S3), Dateispeicher, Anmeldedienst | Deutschland (eu-central-1, Frankfurt) |
+| Contabo GmbH | Hosting von Frontend, Backend und Anmeldedienst des planner | Deutschland |
+| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups (EBS-Snapshots der Instanzen, Backups der Backend-Datenbanken in Amazon S3), Dateispeicher | Deutschland (eu-central-1, Frankfurt) |
 | Twilio Inc. (SendGrid) | E-Mail-Versand von Support-Nachrichten, soweit sie Daten des Kunden enthalten | USA |

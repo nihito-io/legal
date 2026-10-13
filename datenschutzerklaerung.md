@@ -21,25 +21,36 @@ Für Ihr Konto, den Betrieb, den Support und die Nutzungsanalyse sind wir verant
 | **Annahme der Nutzungsbedingungen:** angenommene Version und Zeitpunkt | Nachweis | berechtigtes Interesse (lit. f) |
 | **Inhalte Ihrer planner-Instanz:** Ihre Eingaben, Ergebnisse und Berichte | planner betreiben (im Auftrag, siehe AVV) | Vertrag (lit. b) |
 | **Betriebsdaten:** IP-Adresse, Zeitpunkt und Art von Anfragen, Browserangaben, Fehlermeldungen, Protokolle, Zustand und Auslastung Ihrer planner-Instanz, Aktivitätssignal Ihres Browsers | Sicherheit, Fehlersuche, Pausieren unbenutzter Instanzen; Auswertung der Beta (etwa Zeit bis zum ersten Ergebnis und Kosten pro Kunde) | berechtigtes Interesse (lit. f) |
+| **Abrufe bei Dritten:** IP-Adresse und Browserangaben beim Laden von Schriften, Programmbibliotheken und Kartenkacheln; Suchtext der Adresssuche; Koordinaten des Depots für die PV-Schätzung | planner darstellen, Karte, Adresssuche und PV-Schätzung | berechtigtes Interesse (lit. f) |
 | **Support:** Name, E-Mail-Adresse, Nachricht | Anfragen beantworten | Vertrag (lit. b) |
 | **Nutzungsanalyse** (siehe [Cookies](#cookies)) | Bedienung verbessern | Einwilligung (lit. a) |
 | **Zahlungen:** Abonnementstatus und Kundennummer bei Stripe (keine Kartendaten); in der Beta keine | kostenpflichtige Angebote abrechnen | Vertrag, rechtliche Pflicht (lit. b, c) |
 
-Die Inhalte Ihrer planner-Instanz werten wir nicht für eigene Zwecke aus. Wenige Administratorinnen und Administratoren von nihito können Ihre planner-Instanz für Betrieb, Support und Fehlersuche öffnen (Einzelheiten im AVV). Eine Anmeldung unter Ihrem Konto ist nicht möglich.
+Die Inhalte Ihrer planner-Instanz werten wir nicht für eigene Zwecke aus. Wenige Administratorinnen und Administratoren von nihito können Ihre planner-Instanz für Betrieb, Support und Fehlersuche öffnen (Einzelheiten im AVV). Wir melden uns nicht unter Ihrem Konto an.
 
 ## 3. Empfänger und Speicherort
 
-Frontend und Backend des planner, darunter Ihr Konto, laufen bei Contabo in Deutschland. Die planner-Instanzen, die Backups und der Dateispeicher liegen bei Amazon Web Services (AWS) in der Region eu-central-1 (Frankfurt, Deutschland).
+Frontend, Backend und Anmeldedienst des planner, darunter Ihr Konto, laufen bei Contabo in Deutschland. Die planner-Instanzen, die Backups und der Dateispeicher liegen bei Amazon Web Services (AWS) in der Region eu-central-1 (Frankfurt, Deutschland).
 
 | Empfänger | Zweck | Ort |
 |---|---|---|
-| Contabo GmbH | Hosting von Frontend und Backend des planner | Deutschland |
-| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups, Dateispeicher, Anmeldedienst | Deutschland |
+| Contabo GmbH | Hosting von Frontend, Backend und Anmeldedienst des planner | Deutschland |
+| Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups, Dateispeicher | Deutschland |
 | Twilio Inc. (SendGrid) | E-Mail-Versand von Support-Nachrichten und Systemmeldungen | USA |
 | Microsoft Corporation (Clarity) | Nutzungsanalyse, nur mit Einwilligung | USA |
 | Stripe Payments Europe, Ltd. | Zahlungen, nur bei kostenpflichtigen Angeboten | Irland, USA |
 
-Für die USA stützen wir uns auf das EU-U.S. und das Swiss-U.S. Data Privacy Framework, unter dem diese Empfänger zertifiziert sind, und ergänzend auf die Standardvertragsklauseln der EU-Kommission mit den Anpassungen für die Schweiz. Wir verkaufen keine Personendaten.
+Einige Inhalte lädt Ihr Browser direkt von Dritten, die dabei Ihre IP-Adresse erhalten. Die PV-Schätzung ruft Ihre planner-Instanz ab, ohne Ihre IP-Adresse.
+
+| Dienst | Zweck | Ort |
+|---|---|---|
+| Google Fonts (Google Ireland Ltd., Google LLC) | Schriften | Irland, USA |
+| jsDelivr, unpkg, Plotly (cdn.plot.ly) | Programmbibliotheken | weltweit (Content Delivery Network) |
+| OpenFreeMap (über Cloudflare, Inc.) | Kartenkacheln | weltweit (Content Delivery Network) |
+| Photon (komoot GmbH) | Adresssuche: Ihr Suchtext | Deutschland |
+| PVGIS (Gemeinsame Forschungsstelle der EU-Kommission) | PV-Schätzung: Koordinaten des Depots | Italien |
+
+Für die USA stützen wir uns auf das EU-U.S. und das Swiss-U.S. Data Privacy Framework, unter dem die Empfänger dort zertifiziert sind, und ergänzend auf die Standardvertragsklauseln der EU-Kommission mit den Anpassungen für die Schweiz. Wir verkaufen keine Personendaten.
 
 ## 4. Aufbewahrung
 
@@ -47,6 +58,7 @@ Für die USA stützen wir uns auf das EU-U.S. und das Swiss-U.S. Data Privacy Fr
 - **Inhalte Ihrer planner-Instanz:** bis 30 Tage nach Ende des Vertrags oder Ihres Zugangs (Ziffer 10 der [Nutzungsbedingungen](terms.html)); Backups 7 Tage.
 - **Protokolle von Hintergrundaufgaben:** 30 Tage.
 - **Server-Protokolle:** 90 Tage.
+- **Backups der Datenbanken** (unter anderem Konto, angenommene Versionen, Abonnements, Startprotokolle der planner-Instanz): 30 Tage. Gelöschte Daten bleiben darin bis zu 30 Tage erhalten.
 - **Support-Anfragen:** bis die Anfrage erledigt ist.
 - **Buchhaltungsdaten:** 10 Jahre, wie gesetzlich vorgeschrieben.
 

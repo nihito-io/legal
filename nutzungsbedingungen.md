@@ -27,10 +27,10 @@ Wir entwickeln den planner weiter und dürfen Funktionen ändern. Eine bestimmte
 
 Der planner befindet sich in einer Beta-Phase. Solange sie dauert, gilt zusätzlich:
 
-- **Zugang:** nur auf Einladung; wir schalten ihn von Hand und befristet frei.
+- **Zugang:** Konten können selbst angelegt werden; den Zugang zum planner schalten wir nur auf Einladung, von Hand und befristet frei.
 - **Kostenlos:** Die Teilnahme kostet nichts. Ein Anspruch auf spätere kostenlose Nutzung besteht nicht.
 - **Support:** per E-Mail an info@nihito.io oder über das Supportformular, nach bestem Bemühen. Es gibt keine zugesicherten Antwortzeiten und keine zugesicherte Verfügbarkeit (kein SLA).
-- **Einschränkungen:** Es läuft jeweils nur eine Optimierung gleichzeitig. Es gibt keine Selbstregistrierung, keine Online-Bezahlung, keine Organisationen oder geteilten Instanzen, keine Abonnements für mehrere Standorte, keinen Szenarienvergleich, keine Hochverfügbarkeit, keine Ausweichregion und keine automatische Skalierung. Fehler, Unterbrechungen und Datenverluste sind möglich.
+- **Einschränkungen:** Es läuft jeweils nur eine Optimierung gleichzeitig. Es gibt keine Online-Bezahlung, keine Organisationen oder geteilten Instanzen, keine Abonnements für mehrere Standorte, keinen Szenarienvergleich, keine Hochverfügbarkeit, keine Ausweichregion und keine automatische Skalierung. Fehler, Unterbrechungen und Datenverluste sind möglich.
 - **Änderung und Ende:** Wir können die Beta jederzeit ändern oder einschränken. Ihr Ende kündigen wir mindestens 30 Tage im Voraus per E-Mail an, ausser Sicherheits- oder Rechtsgründe verlangen ein sofortiges Ende. Ihr Zugang endet ausserdem, wenn die Freischaltung abläuft.
 - **Danach:** Am Ende der Beta oder Ihres Zugangs können Sie auf ein kostenpflichtiges Angebot wechseln und den planner mit Ihren Daten weiter nutzen. Sonst gilt Ziffer 10.
 - **Feedback:** Ihre Rückmeldungen dürfen wir unentgeltlich für die Entwicklung unserer Produkte verwenden. Ihren Namen, Ihr Unternehmen oder Ihre Daten veröffentlichen wir dabei nicht ohne Ihre Zustimmung.
@@ -65,7 +65,7 @@ Wir haften unbeschränkt für Absicht, grobe Fahrlässigkeit und Personenschäde
 
 Der Vertrag läuft auf unbestimmte Zeit. Sie können ihn jederzeit per E-Mail an info@nihito.io beenden, wir mit einer Frist von 30 Tagen, bei einem Verstoss gegen diese Nutzungsbedingungen auch sofort.
 
-Endet der Vertrag oder Ihr Zugang, pausieren wir Ihre planner-Instanz. Während 30 Tagen bleiben Ihre Daten erhalten; auf Anfrage geben wir die Instanz für einen Export frei. Danach löschen wir die planner-Instanz mit allen Daten; Backups löschen sich spätestens 7 Tage später. Ihr Konto löschen wir auf Ihren Wunsch.
+Endet der Vertrag oder Ihr Zugang, pausieren wir Ihre planner-Instanz. Während 30 Tagen bleiben Ihre Daten erhalten; auf Anfrage geben wir die Instanz für einen Export frei. Danach löschen wir die planner-Instanz mit allen Daten; ihre Backups löschen sich spätestens 7 Tage später. Ihr Konto löschen wir auf Ihren Wunsch.
 
 ## 11. Entgelt
 
