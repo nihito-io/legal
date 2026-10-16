@@ -30,13 +30,14 @@ Die Inhalte Ihrer planner-Instanz werten wir nicht für eigene Zwecke aus. Wenig
 
 ## 3. Empfänger und Speicherort
 
-Frontend, Backend und Anmeldedienst des planner, darunter Ihr Konto, laufen bei Contabo in Deutschland. Die planner-Instanzen, die Backups und der Dateispeicher liegen bei Amazon Web Services (AWS) in der Region eu-central-1 (Frankfurt, Deutschland).
+Frontend, Backend und Anmeldedienst des planner, darunter Ihr Konto, laufen bei Contabo in Deutschland. Die planner-Instanzen, die Backups und der Dateispeicher liegen bei Amazon Web Services (AWS) in der Region eu-central-1 (Frankfurt, Deutschland). Die Server-Protokolle von Backend und Anmeldedienst speichern wir bei Grafana Cloud in der Schweiz.
 
 | Empfänger | Zweck | Ort |
 |---|---|---|
 | Contabo GmbH | Hosting von Frontend, Backend und Anmeldedienst des planner | Deutschland |
 | Amazon Web Services, Inc. | Hosting der planner-Instanzen, Backups, Dateispeicher | Deutschland |
-| Twilio Inc. (SendGrid) | E-Mail-Versand von Support-Nachrichten und Systemmeldungen | USA |
+| Raintank, Inc. (Grafana Labs) | Speicherung und Auswertung der Server-Protokolle | Schweiz, USA |
+| Sendinblue SAS (Brevo) | E-Mail-Versand von Support-Nachrichten und Systemmeldungen | Frankreich |
 | Microsoft Corporation (Clarity) | Nutzungsanalyse, nur mit Einwilligung | USA |
 | Stripe Payments Europe, Ltd. | Zahlungen, nur bei kostenpflichtigen Angeboten | Irland, USA |
 
